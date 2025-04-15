@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Btn from '../common/Btn'
 const HomeSection = () => {
     return (
-        <div className='bg-[#6D64FE] h-screen w-full flex justify-center items-center md:px-[120px]'>
+        <div id='home' className='bg-[#6D64FE] h-screen w-full flex justify-center items-center md:px-[120px]'>
             {/* background Element */}
             <Image
                 src="/assets/image/Element.svg"  // หรือ URL จากภายนอกก็ได้

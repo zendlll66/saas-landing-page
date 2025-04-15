@@ -4,11 +4,11 @@ import Image from 'next/image';
 const OurSponsorsSection = () => {
   return (
     <div className="px-4 sm:px-8 md:px-16 lg:px-[120px] py-[60px]">
-      <h1 className="text-4xl md:text-5xl font-bold text-center mb-10">
+      <h1 data-aos="fade-up" className="text-4xl md:text-5xl font-bold text-center mb-10">
         Our Sponsors
       </h1>
 
-      <div className="flex md:flex-row flex-col gap-10 items-center justify-center ">
+      <div data-aos="fade-up" className="flex md:flex-row flex-col gap-10 items-center justify-center ">
         <Image
           src="/assets/image/Apple.png"
           alt="Apple"

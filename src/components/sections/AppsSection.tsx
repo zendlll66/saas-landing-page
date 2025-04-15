@@ -15,7 +15,7 @@ const AppsSection = () => {
                 />
             </div>
 
-            <div className='relative z-10 flex flex-col lg:flex-row gap-10'>
+            <div data-aos="fade-up" className='relative z-10 flex flex-col lg:flex-row gap-10'>
                 {/* Left Image */}
                 <div className='w-full lg:w-1/2 flex justify-center'>
                     <Image

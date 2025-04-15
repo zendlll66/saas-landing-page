@@ -12,17 +12,18 @@ const Navbar = () => {
     }
 
     return (
-        <div className='bg-[#6D64FE] w-full'>
-            <div className='flex flex-row items-center justify-between py-3 lg:px-[120px] md:px-[50px] px-[20px]'>
+        <div className='bg-[#6D64FE]/60 fixed z-[50] w-full backdrop-blur-xl '>
+            <div className=' flex flex-row items-center justify-between py-3 lg:px-[120px] md:px-[50px] px-[20px]'>
                 {/* Logo */}
-                <Image
-                    src="/assets/image/Logo.png"
-                    alt="logo"
-                    width={200}
-                    height={300}
-                    className='w-[190px] h-[34px]'
-                />
-
+                <Link href="#home">
+                    <Image
+                        src="/assets/image/Logo.png"
+                        alt="logo"
+                        width={200}
+                        height={300}
+                        className='w-[190px] h-[34px]'
+                    />
+                </Link>
                 {/* Desktop Menu */}
                 <div className='hidden md:flex flex-row space-x-10 items-center'>
                     <div className='text-white space-x-5'>
@@ -31,9 +32,9 @@ const Navbar = () => {
                         <Link href="#resources">Resources</Link>
                         <Link href="#pricing">Pricing</Link>
                     </div>
-                    <div className='flex flex-row space-x-5 text-white'>
+                    <div className='flex flex-row space-x-5 text-white justify-center items-center'>
                         <Btn text="Login" className='bg-[#FFE492] text-[#6D64FE]' />
-                        <Btn text="Try Whitepace free" className='bg-[#4F9CF9] text-white' />
+                        <Btn text="Try Whitepace free" className='bg-[#4F9CF9] text-white md:text-[12px] ' />
                     </div>
                 </div>
 
