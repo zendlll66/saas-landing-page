@@ -12,7 +12,7 @@ const YourDataSection = () => {
                     100% your data
                 </h1>
                 <p className='text-lg md:text-xl opacity-80 mb-8 max-w-lg mx-auto lg:mx-0 text-center lg:text-left'>
-                    The app is open source and your notes are saved to an open format, so you'll always have access to them. Uses End-To-End Encryption (E2EE) to secure your notes and ensure no-one but yourself can access them.
+                    The app is open source and your notes are saved to an open format, so you&apos;ll always have access to them. Uses End-To-End Encryption (E2EE) to secure your notes and ensure no-one but yourself can access them.
                 </p>
                 <div className='flex justify-center lg:justify-start'>
                     <Btn
