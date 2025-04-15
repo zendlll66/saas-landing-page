@@ -63,7 +63,7 @@ const YourPlanSection = () => {
                                     "Add due dates, reminders, and notifications to your tasks"
                                 ].map((item, i) => (
                                     <li key={i} className='flex items-start'>
-                                        <CheckIcon className='w-[15px] h-[15px] mr-3 shrink-0' imageName={"icon.png"} />
+                                        <CheckIcon className='w-[15px] h-[15px] mr-3 shrink-0' imageName={"Icon.png"} />
                                         <span>{item}</span>
                                     </li>
                                 ))}
